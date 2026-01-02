@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code (opcjonalnie)
+.vscode/
+
+# Logs (na wszelki wypadek)
+*.log
+
+# Node / build (jeśli kiedykolwiek dodasz npm)
+node_modules/
+dist/
+build/
+.cache/
