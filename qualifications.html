@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Twoje Imię i Nazwisko — Wizytówka</title>
+  <meta name="description" content="Wizytówka — O mnie, kwalifikacje, oferta, cennik, ogłoszenia i kontakt." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Strona główna">
+        <span class="brand__name">Twoje Imię</span>
+        <span class="brand__tag">Wizytówka</span>
+      </a>
+
+      <nav class="nav" aria-label="Główne menu">
+        <a class="nav__link active" href="index.html">O mnie</a>
+        <a class="nav__link" href="qualifications.html">Kwalifikacje</a>
+        <a class="nav__link" href="offer.html">Oferta</a>
+        <a class="nav__link" href="pricing.html">Cennik</a>
+        <a class="nav__link" href="ads.html">Ogłoszenia</a>
+        <a class="nav__link" href="contact.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <section class="card hero">
+        <div class="hero__content">
+          <h1>Kwalifikacje</h1>
+          <p class="lead">
+            Tu bym krótko napisał o swojej specjalizacji lub o tym gdzie aktualnie pracujesz.
+          </p>
+
+          <p>
+            Tutaj dłuższy opis na zasadzie gdzie studiowałeś, jakie kursy ukończyłeś, jakie certyfikaty posiadasz.
+            Możesz dodać wypunktowanie lub podobnie jak na innych stronach osób z branży.
+            </p>
+            <p>
+            Opisy oczywiście poglądowe, różnorodność ikon również dla pokazania szerokości ich wachlarzu (w kwestii ikon ogranicza nas tylko wyobraźnia)
+          </p>
+                <h1>Certyfikaty</h1>
+
+        <div class="cert-grid">
+            <ul class="cert-list">
+            <li>
+                <img src="images/icons/psychologist.svg" alt="">
+                Psycholog – wykształcenie kierunkowe
+            </li>
+            <li>
+                <img src="images/icons/certificate.svg" alt="">
+                Certyfikat psychoterapeuty
+            </li>
+            <li>
+                <img src="images/icons/burden-depression-responsibility-difficulty-svgrepo-com.svg" alt="">
+                Praca z zaburzeniami depresyjnymi
+            </li>
+            <li>
+                <img src="images/icons/question-in-head-look-ponder-person-svgrepo-com.svg" alt="">
+                Konsultacje psychologiczne
+            </li>
+            </ul>
+
+            <ul class="cert-list">
+            <li>
+                <img src="images/icons/hands-to-shake-hands-svgrepo-com.svg" alt="">
+                Terapia relacji i wsparcie interpersonalne
+            </li>
+            <li>
+                <img src="images/icons/balance-philosophy-find-balance-find-harmony-svgrepo-com.svg" alt="">
+                Regulacja emocji i równowaga psychiczna
+            </li>
+            <li>
+                <img src="images/icons/couch-sofa-svgrepo-com.svg" alt="">
+                Terapia indywidualna
+            </li>
+            <li>
+                <img src="images/icons/hands-and-leaves-svgrepo-com.svg" alt="">
+                Mindfulness i techniki relaksacyjne
+            </li>
+            </ul>
+        </div>
+        </section>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Twoje Imię. Wszelkie prawa zastrzeżone.</small>
+      <small class="muted">Email: <a href="mailto:twojemail@domena.pl">twojemail@domena.pl</a></small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Twoje Imię i Nazwisko — Wizytówka</title>
+  <meta name="description" content="Wizytówka — O mnie, kwalifikacje, oferta, cennik, ogłoszenia i kontakt." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Strona główna">
+        <span class="brand__name">Twoje Imię</span>
+        <span class="brand__tag">Wizytówka</span>
+      </a>
+
+      <nav class="nav" aria-label="Główne menu">
+        <a class="nav__link active" href="index.html">O mnie</a>
+        <a class="nav__link" href="qualifications.html">Kwalifikacje</a>
+        <a class="nav__link" href="offer.html">Oferta</a>
+        <a class="nav__link" href="pricing.html">Cennik</a>
+        <a class="nav__link" href="ads.html">Ogłoszenia</a>
+        <a class="nav__link" href="contact.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <section class="card hero">
+        <div class="hero__content">
+          <h1>Ogłoszenia</h1>
+          <p class="lead">
+            Tu na przykład urlopy, albo przerwy świąteczne, albo inne ważne informacje dla Twoich klientów.
+          </p>
+
+          <p>
+            w dalszej perspektywie możemy tu też dodać jakiś prosty system zarządzania ogłoszeniami, ale na początek
+            wystarczy ręczne edytowanie tej strony co jakiś czas.
+            Osobiście uważam, że do tego lepiej sprawdzają się cocjal media.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="contact.html">Napisz do mnie</a>
+            <a class="btn btn--ghost" href="offer.html">Zobacz ofertę</a>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Twoje Imię. Wszelkie prawa zastrzeżone.</small>
+      <small class="muted">Email: <a href="mailto:twojemail@domena.pl">twojemail@domena.pl</a></small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+
+</body>
+</html>
